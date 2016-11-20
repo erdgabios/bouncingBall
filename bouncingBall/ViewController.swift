@@ -47,7 +47,7 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate {
         collison.collisionDelegate = self
         
         let ballBehavior = UIDynamicItemBehavior(items: [ball])
-        ballBehavior.elasticity = 0.75
+        ballBehavior.elasticity = 0.70
         
         animator.addBehavior(ballBehavior)
     }
